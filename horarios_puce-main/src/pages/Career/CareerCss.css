@@ -4,7 +4,7 @@
     --main:#144284;
     --delete:#dc3545;
     --bg:#f7f7f7;
-}
+    }
 /*iconos*/
 .bi-plus-circle-fill{
     color: var(--main);

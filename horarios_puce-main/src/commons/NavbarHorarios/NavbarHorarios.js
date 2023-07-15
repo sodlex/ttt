@@ -7,7 +7,7 @@ import "./NavbarHorariosCss.css";
 
 function NavbarHorarios() {
   return (
-    <Navbar id="navbar1" className="bg-body-tertiary" fixed="top">
+    <Navbar id="navbar1" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
           <img

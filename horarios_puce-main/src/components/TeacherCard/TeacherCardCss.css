@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+:root {
+  --main: #144284;
+  --secun: #00a0dd;
+  --delete: #dc3545;
+  --bg: #f7f7f7;
+}
+
+/*icons*/
+.bi-plus-circle-fill {
+  position: fixed;
+  bottom: 45%;
+  right: 0.5%;
+  color: var(--main);
+  font-size: 2.5rem;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.bi-plus-circle-fill:hover {
+  font-size: 2.8rem;
+}
+
+.addLabel {
+  font-size: large;
+}
+
+.bi-trash-fill {
+  margin: 2%;
+  color: var(--delete);
+  transition: all 0.2s ease-in-out;
+}
+.bi-trash-fill:hover {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.bi-pencil-fill {
+  margin: 2%;
+  color: var(--main);
+}
+
+.bi-pencil-fill:hover {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/*elements*/
+.cards {
+  background-color: var(--bg);
+  transition: all 0.5s ease-in-out;
+  margin: 0.3%;
+  background: rgba(250, 250, 240, 0.3);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  border-radius: 1px;
+  width: 30%;
+}
+.careerContainer {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.CardComponents {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+  width: 80%;
+}
+.CareerCord {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 3%;
+  font-size: medium;
+}
+.CareerName {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 3%;
+  font-size: medium;
+}
+.edit {
+  min-height: "150px";
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.Cardsbtns {
+  border: none;
+  display: flex;
+  margin: 1%;
+  flex-grow: 1;
+}
+.searchinput {
+  display: flex;
+  width: 100%;
+}
+.inp {
+  margin: 1%;
+  width: 100%;
+}
+.search {
+  width: 90%;
+}
+.update {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+}
+
+.ueva {
+  font-size: large;
+}
+
+.prueba2.form-control {
+  width: 98%;
+}
+.input-group-text {
+  width: 98%;
+}
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.page1 {
+  display: flex;
+  flex-direction: column;
+}
