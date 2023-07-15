@@ -1,0 +1,23 @@
+#navbar1 {
+  background: rgba(247, 247, 247, 0.9) !important;
+  backdrop-filter: blur(5px);
+}
+
+.btn-outline-success {
+  background-color: #00a0dd;
+  border-color: #00a0dd;
+  color: white;
+  margin-left: 1%;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+  border-color: #00a0dd;
+  color: black;
+}
+
+.btn-outline-success:not(:disabled):not(:disabled):active {
+  background-color: white;
+  border-color: #00a0dd;
+  color: black;
+}

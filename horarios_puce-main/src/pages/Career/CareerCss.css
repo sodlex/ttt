@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root{
+    --main:#144284;
+    --delete:#dc3545;
+    --bg:#f7f7f7;
+}
+/*iconos*/
+.bi-plus-circle-fill{
+    color: var(--main);
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+.bi-plus-circle-fill:hover{
+    font-size: 2.2rem;
+}
+.bi-trash-fill{
+    margin: 2%;
+    color:var(--delete);
+    transition: all .2s ease-in-out;
+}
+.bi-trash-fill:hover{
+font-size: 1.1rem;
+}
+.bi-pencil-fill{
+    margin: 2%;
+    color:var(--main);
+    transition: all .2s ease-in-out;
+
+}
+.bi-pencil-fill:hover{
+    font-size: 1.1rem;
+}
+
+
+/*elemento*/
+.cards{
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+    transition: all .5s ease-in-out;
+    margin: 0.5%;
+}
+.carrera{
+    margin: 1%;
+    width: 80%;
+}
+.edit{
+    min-height: '150px';
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+}
+.bt{
+    display: flex;
+    margin: 1%;
+    flex-grow: 1;
+}

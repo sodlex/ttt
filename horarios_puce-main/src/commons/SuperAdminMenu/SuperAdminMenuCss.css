@@ -1,0 +1,35 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+i {
+  margin: 2%;
+}
+.menuSuper {
+  display: flex;
+  background-color: #164284;
+  width: 20vw;
+  height: 100vh;
+  padding: 8% 2% 4% 0%;
+  text-align: left;
+}
+
+.p-2 {
+  color: white;
+  font-size: large;
+}
+.p-2:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menuCoord {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 4% 0% 4% 0%;
+  }
+  .p-2 {
+    font-size: small;
+  }
+}
