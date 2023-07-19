@@ -9,6 +9,26 @@ function App() {
     <div className="App">
       <>
         <TeacherPage /> <TeacherCard />
+
+
+
+        <>
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+        </>
       </>
     </div>
   );
